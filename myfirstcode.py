@@ -1,6 +1,6 @@
-a = input ('masukan angka: ') #input function
+nilai = input ('masukan nilai: ') #input function
 
-if int(a) > 5: #if function with type:integer variable
-  print('nilai a lebih dari 5')
-else:  #else functio 
-	print('nilai kurang dari 5')
+if int(nilai) >= 7: #if function with type:integer variable
+  print('Selamat Anda Lulus!')
+else:  #else function
+   print('Maaf Anda Belum Lulus.')
